@@ -1,0 +1,14 @@
+.alert {
+	background-color: white;
+	color: #0c1323;
+	font-size: 14px;
+	width: 100%;
+	padding: 10px 20px;
+	position: relative;
+	.time {
+		font-size: 13px;
+		position: absolute;
+		top: 4px;
+		right: 10px;
+	}
+}

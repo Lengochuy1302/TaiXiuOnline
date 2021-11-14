@@ -1,0 +1,30 @@
+.group-filter {
+	text-align: right;
+	margin: 10px auto;
+}
+.select {
+	width: auto;
+	height: 38px;
+	background-color: $primary-color;
+	color: white;
+	border: 1px solid #5e6a74;
+	padding: 0 10px;
+}
+
+.main-content {
+	.left-content {
+		float: left;
+		width: 270px;
+	}
+	.right-content {
+		float: right;
+		width: calc(100% - 270px - 30px);
+	}
+}
+
+.bet1 { float:left; width: 152px; }
+.bet2 { 
+	float: left; width: 18px; margin-right: 10px; margin-top:12px; 
+	img { width: 100%; }
+}
+.bet3 { float:right; width: calc(100% - 152px - 28px); margin-top:8px; }

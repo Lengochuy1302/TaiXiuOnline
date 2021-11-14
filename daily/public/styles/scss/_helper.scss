@@ -1,0 +1,46 @@
+$primary-color: #0c1323;
+$primary-light-color: #232935;
+$accent-color: #960202;
+
+$live-thead: #960202;
+$live-header: #530f15;
+$live-body: #f9f8eb;
+$live-border: #c4c7cb;
+$live-text: #0c1323;
+
+$today-thead: #676f82;
+$today-header: #3c4558;
+$today-body: #ebebeb;
+$today-border: #0c1323;
+$today-text: #0c1323;
+
+$popup-thead: #243d66;
+$popup-border: rgba(215,215,215,.5);
+$popup-body: #ebebeb;
+$popup-tr-odd: #c6d4f1;
+$popup-text: #0c1323;
+
+// $today-text: #0c1323;
+// $today-border:#091221;
+// $today-header: #233447;
+// $today-body: #ebebeb;
+// $today-body-light: #eee;
+
+$blue: #5169A3;
+$blue-darken: #000032;
+$blue-lighten: #c1d2ee;
+$blue-lighten-1: #e6eefb; 
+
+$orange: #FF7500;
+$orange-darken: #542700;
+$orange-lighten: #fdccae;
+$orange-lighten-1: #ffdbc3; 
+
+@-webkit-keyframes spin {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+}
+@keyframes spin {
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+}

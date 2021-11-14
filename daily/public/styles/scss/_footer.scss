@@ -1,0 +1,49 @@
+.footer {
+	margin: 60px auto 30px;
+	.col {
+		width: 200px;
+		margin-right: 100px;
+		float: left;
+		&:last-child {
+			width: 270px;
+			margin-right: 0;
+			font-size: 18px;
+		}
+	}
+	h4 {
+		text-transform: uppercase;
+		font-weight: bold;
+		font-size: 18px;
+	}
+	ul {
+		margin-top: 50px;
+		list-style: none;
+		font-size: 16px;
+		li {
+			display: block;
+			margin-bottom: 30px;
+			a {
+				color: white;
+				text-decoration: none;
+			}
+			&:hover {
+				a {
+					text-decoration: underline;
+				}
+			}
+		}
+	}
+	p {
+		text-align: center;
+		font-size: 16px;
+		margin-bottom: 20px;
+	}
+}
+.section-copy-right {
+	padding: 20px 0;
+	background-repeat: white;
+	color: #0c1323;
+	p {
+		text-align: center;
+	}
+}

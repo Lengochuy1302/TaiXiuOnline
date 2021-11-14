@@ -1,0 +1,378 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200303.182249.2208.0.001.json",
+    "dumpEventTime": "2020-03-03T18:22:49Z",
+    "dumpEventTimeStamp": "1583234569620",
+    "processId": 2208,
+    "cwd": "C:\\Users\\nguyenanhtu698\\Desktop\\server",
+    "commandLine": [
+      "node",
+      "server.js"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "6.3.9600",
+    "osVersion": "Windows Server 2012 R2 Datacenter",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Xeon(R) CPU @ 2.20GHz",
+        "speed": 2200,
+        "user": 252682046,
+        "nice": 0,
+        "sys": 22161812,
+        "idle": 1032571578,
+        "irq": 304500
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "42:01:0a:8c:00:02",
+        "address": "fe80::30aa:c870:de55:f307",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 12
+      },
+      {
+        "name": "Ethernet",
+        "internal": false,
+        "mac": "42:01:0a:8c:00:02",
+        "address": "10.140.0.2",
+        "netmask": "255.255.240.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "instance-1"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6a23b1729",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+10873"
+    },
+    {
+      "pc": "0x00007ff6a23b5b4c",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+28316"
+    },
+    {
+      "pc": "0x00007ff6a23b4b08",
+      "symbol": "std::basic_ostream<char,std::char_traits<char> >::operator<<+24152"
+    },
+    {
+      "pc": "0x00007ff6a24a369b",
+      "symbol": "v8::base::CPU::has_sse+37723"
+    },
+    {
+      "pc": "0x00007ff6a2ca82de",
+      "symbol": "v8::Isolate::ReportExternalAllocationLimitReached+94"
+    },
+    {
+      "pc": "0x00007ff6a2c90321",
+      "symbol": "v8::SharedArrayBuffer::Externalize+833"
+    },
+    {
+      "pc": "0x00007ff6a2b5dbec",
+      "symbol": "v8::internal::Heap::EphemeronKeyWriteBarrierFromCode+1436"
+    },
+    {
+      "pc": "0x00007ff6a2b68f90",
+      "symbol": "v8::internal::Heap::ProtectUnprotectedMemoryChunks+1312"
+    },
+    {
+      "pc": "0x00007ff6a2b65ac4",
+      "symbol": "v8::internal::Heap::PageFlagsAreConsistent+3204"
+    },
+    {
+      "pc": "0x00007ff6a2b5b353",
+      "symbol": "v8::internal::Heap::CollectGarbage+1283"
+    },
+    {
+      "pc": "0x00007ff6a2b59b24",
+      "symbol": "v8::internal::Heap::AddRetainedMap+2356"
+    },
+    {
+      "pc": "0x00007ff6a2b7adf5",
+      "symbol": "v8::internal::Factory::NewFillerObject+53"
+    },
+    {
+      "pc": "0x00007ff6a28e6e19",
+      "symbol": "v8::internal::interpreter::JumpTableTargetOffsets::iterator::operator=+4057"
+    },
+    {
+      "pc": "0x00007ff6a30d404d",
+      "symbol": "v8::internal::SetupIsolateDelegate::SetupHeap+567949"
+    },
+    {
+      "pc": "0x0000001c6a6a62c8",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 2016632832,
+    "totalCommittedMemory": 2016632832,
+    "usedMemory": 1962901488,
+    "availableMemory": 49515144,
+    "memoryLimit": 2063597568,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 2097152,
+        "committedMemory": 2097152,
+        "capacity": 1047488,
+        "used": 33040,
+        "available": 1014448
+      },
+      "old_space": {
+        "memorySize": 1992667136,
+        "committedMemory": 1992667136,
+        "capacity": 1942585536,
+        "used": 1942326640,
+        "available": 258896
+      },
+      "code_space": {
+        "memorySize": 1212416,
+        "committedMemory": 1212416,
+        "capacity": 850592,
+        "used": 850592,
+        "available": 0
+      },
+      "map_space": {
+        "memorySize": 2101248,
+        "committedMemory": 2101248,
+        "capacity": 1493040,
+        "used": 1493040,
+        "available": 0
+      },
+      "large_object_space": {
+        "memorySize": 18243584,
+        "committedMemory": 18243584,
+        "capacity": 18162328,
+        "used": 18162328,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 141.562,
+    "kernelCpuSeconds": 3.734,
+    "cpuConsumptionPercent": 70.1913,
+    "maxRss": 2113220608,
+    "pageFaults": {
+      "IORequired": 835942,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2361,
+      "writes": 9
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\Users\\nguyenanhtu698\\Desktop\\server",
+    "=ExitCode": "C000013A",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\nguyenanhtu698\\AppData\\Roaming",
+    "CLIENTNAME": "Thanhs-MacBook-",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "INSTANCE-1",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "FP_NO_HOST_CHECK": "NO",
+    "GooGetRoot": "C:\\ProgramData\\GooGet",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\nguyenanhtu698",
+    "LOCALAPPDATA": "C:\\Users\\nguyenanhtu698\\AppData\\Local",
+    "LOGONSERVER": "\\\\INSTANCE-1",
+    "NUMBER_OF_PROCESSORS": "1",
+    "OS": "Windows_NT",
+    "Path": "C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\ProgramData\\GooGet;C:\\Program Files\\Google\\Compute Engine\\metadata_scripts;C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\bin;C:\\Program Files\\Google\\Compute Engine\\sysprep;C:\\Program Files\\nodejs\\;C:\\Users\\nguyenanhtu698\\AppData\\Roaming\\npm",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 79 Stepping 0, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4f00",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files (x86)\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules;C:\\Program Files (x86)\\Google\\Cloud SDK\\google-cloud-sdk\\platform\\PowerShell",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "RDP-Tcp#74",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\NGUYEN~1\\AppData\\Local\\Temp\\2",
+    "TMP": "C:\\Users\\NGUYEN~1\\AppData\\Local\\Temp\\2",
+    "USERDOMAIN": "INSTANCE-1",
+    "USERDOMAIN_ROAMINGPROFILE": "INSTANCE-1",
+    "USERNAME": "nguyenanhtu698",
+    "USERPROFILE": "C:\\Users\\nguyenanhtu698",
+    "windir": "C:\\Windows"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\system32\\KERNEL32.DLL",
+    "C:\\Windows\\system32\\KERNELBASE.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\system32\\WS2_32.dll",
+    "C:\\Windows\\system32\\ADVAPI32.dll",
+    "C:\\Windows\\system32\\USER32.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\system32\\PSAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\system32\\CRYPT32.dll",
+    "C:\\Windows\\SYSTEM32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\system32\\msvcrt.dll",
+    "C:\\Windows\\system32\\NSI.dll",
+    "C:\\Windows\\system32\\RPCRT4.dll",
+    "C:\\Windows\\SYSTEM32\\sechost.dll",
+    "C:\\Windows\\system32\\GDI32.dll",
+    "C:\\Windows\\SYSTEM32\\WINNSI.DLL",
+    "C:\\Windows\\SYSTEM32\\profapi.dll",
+    "C:\\Windows\\system32\\MSASN1.dll",
+    "C:\\Windows\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\Windows\\system32\\SspiCli.dll",
+    "C:\\Windows\\SYSTEM32\\cfgmgr32.dll",
+    "C:\\Windows\\SYSTEM32\\DEVOBJ.dll",
+    "C:\\Windows\\system32\\IMM32.DLL",
+    "C:\\Windows\\system32\\MSCTF.dll",
+    "C:\\Windows\\SYSTEM32\\powrprof.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\SYSTEM32\\bcryptPrimitives.dll",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\SYSTEM32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\bcrypt\\lib\\binding\\bcrypt_lib.node",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\canvas.node",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libcairo-2.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpng16-16.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libjpeg-8.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpango-1.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpangocairo-1.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgobject-2.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libglib-2.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgif-7.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libfreetype-6.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\librsvg-2-2.dll",
+    "C:\\Windows\\SYSTEM32\\MSIMG32.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgcc_s_seh-1.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libfontconfig-1.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpixman-1-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\zlib1.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libfribidi-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libthai-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpangoft2-1.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpangowin32-1.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libffi-6.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libintl-8.dll",
+    "C:\\Windows\\system32\\ole32.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libwinpthread-1.dll",
+    "C:\\Windows\\system32\\SHELL32.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libpcre-1.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libbz2-1.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libharfbuzz-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libcroco-0.6-3.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgdk_pixbuf-2.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgio-2.0-0.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libxml2-2.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libexpat-1.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libiconv-2.dll",
+    "C:\\Windows\\system32\\SHLWAPI.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libdatrie-1.dll",
+    "C:\\Windows\\SYSTEM32\\USP10.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgraphite2.dll",
+    "C:\\Windows\\WinSxS\\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.19608_none_9329fa3747513305\\gdiplus.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libgmodule-2.0-0.dll",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\liblzma-5.dll",
+    "\\\\?\\C:\\Users\\nguyenanhtu698\\Desktop\\server\\node_modules\\canvas\\build\\Release\\libstdc++-6.dll",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\System32\\winrnr.dll"
+  ]
+}

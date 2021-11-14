@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "bugsnag": "file:../..",
+    "koa": "^2.1.0",
+    "koa-bodyparser": "^4.1.0",
+    "koa-router": "next",
+    "unhandled-rejection": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node ."
+  }
+}

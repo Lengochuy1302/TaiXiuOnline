@@ -1,0 +1,48 @@
+$path-image: "../images/";
+
+.icon {
+	width: 15px;
+	height: 15px;
+	display: inline-block;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	vertical-align: middle;
+}
+
+.icon.icon-currency-AM { background-image: url($path-image + "icon-currency-am.png"); }
+.icon.icon-currency-HK { background-image: url($path-image + "icon-currency-hk.png"); }
+.icon.icon-currency-ER { background-image: url($path-image + "icon-currency-ER.png"); }
+.icon.icon-currency-MY { background-image: url($path-image + "icon-currency-my.png"); }
+
+
+
+.icon.icon-am {background-image: url($path-image +  'icon-am.png');}
+.icon.icon-all {background-image: url($path-image +  'icon-all.png');}
+.icon.icon-arrow {background-image: url($path-image +  'icon-arrow.png');}
+
+.icon.icon-football {background-image: url($path-image +  'icon-football.png');}
+.icon.icon-promotion {background-image: url($path-image +  'icon-promotion.png');}
+
+
+
+.icon.icon-sort {background-image: url($path-image +  'icon-sort.png');}
+.icon.icon-sort-time {background-image: url($path-image +  'icon-sort-time.png');}
+.icon.icon-sound-on {background-image: url($path-image +  'icon-sound-on.png');}
+
+.icon.icon-view {background-image: url($path-image +  'icon-view.png');}
+
+
+.icon.ic_baseball_blue { background-image: url($path-image + 'ic_baseball_blue.png'); }
+.icon.ic_baseball_white { background-image: url($path-image + 'ic_baseball_white.png'); }
+
+.icon.ic_football_white { background-image: url($path-image + 'ic_football_white.png'); }
+.icon.ic_football_blue { background-image: url($path-image + 'ic_football_blue.png'); }
+
+.icon.ic_volleyball_blue { background-image: url($path-image + 'ic_volleyball_blue.png'); }
+.icon.ic_volleyball_white { background-image: url($path-image + 'ic_volleyball_white.png'); }
+
+.icon.ic_baseball_blue { background-image: url($path-image + 'ic_baseball_blue.png'); }
+.icon.ic_baseball_white { background-image: url($path-image + 'ic_baseball_white.png'); }
+
+/**/

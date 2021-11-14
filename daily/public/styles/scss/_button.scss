@@ -1,0 +1,43 @@
+a.button-section {
+	display: inline-block;
+	text-align: center;
+	width: 293px;
+	height: 43px;
+	line-height: 43px;	
+	padding: 0 24px;
+	border: 1px solid white;
+	background-color: rgba(23,35,104, .6);
+	color: white;
+	text-transform: uppercase;
+	&:hover {
+		background-color: lighten(rgba(23,35,104, .6), 10%);
+		cursor: pointer;
+	}
+	&-red {
+		background-color: rgba(150, 2, 2,  .6);
+		&:hover {
+			background-color: lighten(rgba(150, 2, 2,  .6), 10%);
+		}
+	}
+}
+.button {
+	display: inline-block;
+	height: 34px;
+	line-height: 34px;
+	padding: 0 10px;
+	text-align: center;
+	cursor: pointer;
+	background-color: $primary-color;
+	color: white;
+	border: 1px solid #84868b;
+	&:hover {
+		background-color: lighten($primary-color, 10%);
+	}
+}
+.button.button-accent {
+	background-color: $accent-color;
+	border: 1px solid darken($accent-color, 10%);
+	&:hover {
+		background-color: lighten($accent-color, 10%);
+	}
+}

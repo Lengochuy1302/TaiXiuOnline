@@ -1,0 +1,142 @@
+.checkbox {
+	display: inline-block;
+	cursor: pointer;
+	input[type="checkbox"] {
+		display: none;
+		& + span {
+			display: inherit;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			background-color: transparent;
+			border: 1px solid #acacac;
+			&:after {
+				content: "\f00c";
+				font-family: FontAwesome;
+				opacity: 0;
+				transition: all 0.3s;
+			}
+			& + span {
+				transition: all 0.3s;
+				margin-left: 4px;
+    			margin-right: 4px;
+			}
+		}
+		&:checked + span {
+			border-color: #acacac;
+			color: #333;
+			&:after {
+				content: "\f00c";
+				opacity: 1;
+			}
+			& + span {
+			}
+		}
+	}
+}
+
+
+
+
+.radio {
+	display: inline-block;
+	// margin: 2px 8px 2px 0;
+	cursor: pointer;
+	input[type="radio"] {
+		display: none;
+		& + span {
+			display: inherit;
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+			text-align: center;
+			border-radius: 50%;
+			background-color: white;
+			border: 1px solid #acacac;
+			position: relative;
+			&:before {
+				content: "\f00c";
+				font-family: FontAwesome;
+				opacity: 0;
+				transition: all 0.3s;
+			}
+			
+			& + span {
+				transition: all 0.3s;
+				margin-left: 4px;
+    			margin-right: 4px;
+			}
+		}
+		&:checked + span {
+			border-color: #4095ff;
+			background-color: #4095ff;
+			&:before {
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				top: 0;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				width: 10px;
+				height: 10px;
+				margin: auto;
+				border-radius: 50%;
+				background-color: white;
+			}
+			& + span {
+			}
+		}
+	}
+}
+.radio-v {
+	input[type="radio"] {
+		&+span {
+			display: block;
+			&+span {
+				display: block;
+				margin-top: 10px;
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+
+	}
+}
+
+
+// =======================================
+.radio-button-lg {
+	input[type="radio"] {
+		&+span {
+			padding: 10px 16px;
+			font-size: 18px;
+		}
+	}
+}
+.radio-button-md {
+	input[type="radio"] {
+		&+span {
+			padding: 6px 12px;
+			font-size: 14px;
+		}
+	}
+}
+.radio-button-sm {
+	input[type="radio"] {
+		&+span {
+			padding: 5px 10px;
+			font-size: 12px;
+		}
+	}
+}
+.radio-button-xs {
+	input[type="radio"] {
+		&+span {
+			padding: 1px 5px;
+			font-size: 12px;
+		}
+	}
+}

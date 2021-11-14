@@ -1,0 +1,29 @@
+.loading {
+	z-index: 1060;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	background-image: url(../images/timer.gif);
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: none;
+}
+.loading-sm {
+	height: 20px;
+	width: 20px;
+}
+.loading-lg {
+	height: 100px;
+	width: 100px;
+}
+
+.icon-spin {
+	// width: 100px;
+	// height: 100px;
+	// background-color: red;
+	position: relative;
+	-webkit-animation: spin 1s infinite linear;
+	animation: spin 1s infinite linear;
+}
