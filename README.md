@@ -18,8 +18,6 @@ LƯU Ý:
 
 Sau khi mua code: nhận update chức năng gửi yêu cầu rút tiền về email, hệ thống admin cài đặt toàn bộ hệ thống (chi phí riêng, Có thể nhờ Admin Sharecode làm trung gian)
 
-Demo: https://www.youtube.com/watch?v=35b2IHI3Ozc
-
 Lưu ý: Tác giả cam kết với hệ thống: Sau khi khách mua, sẽ hỗ trợ cài đặt để code hoạt động theo chức năng, riêng API chỉ dành cho các bạn đã hiểu và biết sử dụng để kết nối.
 
 
@@ -29,12 +27,3 @@ XEM THÊM ==> Hướng dẫn cài đặt chi tiết
 
 HÌNH ẢNH DEMO
 
-code game,code game php,game tài xỉu không cần cài đặt,html game bài,game tài xỉu,game bài online
-
-code game,code game php,game tài xỉu không cần cài đặt,html game bài,game tài xỉu,game bài online
-
-code game,code game php,game tài xỉu không cần cài đặt,html game bài,game tài xỉu,game bài online
-
-code game,code game php,game tài xỉu không cần cài đặt,html game bài,game tài xỉu,game bài online
-
-code game,code game php,game tài xỉu không cần cài đặt,html game bài,game tài xỉu,game bài online
